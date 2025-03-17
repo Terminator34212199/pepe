@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `time`;
 CREATE TABLE `time` (
   `id` int NOT NULL AUTO_INCREMENT,
   `specialnost` varchar(50) NOT NULL,
-  `dataa` date NOT NULL,
+  `dataa` datee NOT NULL,
   `starttime` time NOT NULL,
   `endtime` time NOT NULL,
   `status` enum('свободен','занят') DEFAULT 'свободен',
